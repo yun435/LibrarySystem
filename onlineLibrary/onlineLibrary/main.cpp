@@ -46,7 +46,6 @@ bool isValidCardNumber(const string& cardNumber) {
 }
 
 int main() {
-    system("chcp 65001 > nul");
 
     PassManager pass;
     cout << "Please enter the initial password to change it.\n";
