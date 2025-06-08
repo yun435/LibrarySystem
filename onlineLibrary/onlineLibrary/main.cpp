@@ -4,7 +4,7 @@
 #include <string>
 #include "Book.h"
 #include "Member.h"
-#include"Pass.h"
+#include "Pass.h"
 using namespace std;
 
 struct Category {
@@ -49,25 +49,25 @@ int main() {
     system("chcp 65001 > nul");
 
     PassManager pass;
-    // 第一次啟動修改密碼
-    cout << "第一次啟動請輸入初始密碼進行修改。\n";
+    cout << "Please enter the initial password to change it.\n";
     if (pass.verifyPassword()) {
-        pass.changePassword();  // 修改為新密碼
+        pass.changePassword();
     }
 
     string name, cardNumber;
-    cout << "請輸入姓名：";
+    cout << "Enter your name: ";
     getline(cin, name);
 
     pass.verifyPassword();
 
-    cout << "請輸入8碼借書證卡號（開頭1為VIP, 0為一般）：";
+    cout << "Enter your 8-digit library card number (Starts with 1 for VIP, 0 for regular): ";
     getline(cin, cardNumber);
 
     if (!isValidCardNumber(cardNumber)) {
-        cout << "無效卡號，程式結束。\n";
+        cout << "Invalid card number. Program will exit.\n";
         return 1;
     }
+
     bool isVIP = (cardNumber[0] == '1');
     Member* user = new Member(name, stoi(cardNumber), isVIP);
 
@@ -76,7 +76,7 @@ int main() {
     char choice;
 main_menu:
     do {
-        cout << "\n選單：\n1. 借書\n2. 還書\n3. 顯示借閱書籍\n4. 離開\n選擇：";
+        cout << "\nMenu:\n1. Borrow Book\n2. Return Book\n3. Show Borrowed Books\n4. Exit\nChoice: ";
         cin >> choice;
         cin.ignore();
 
@@ -86,36 +86,36 @@ main_menu:
                 cout << i + 1 << ". " << categories[i].name << endl;
             }
             int catIndex;
-            cout << "選擇類別：";
+            cout << "Select category: ";
             cin >> catIndex; cin.ignore();
             if (catIndex < 1 || catIndex > categories.size()) continue;
 
             Category& cat = categories[catIndex - 1];
             while (true) {
-                cout << "\n" << cat.name << " 類別書籍：" << endl;
+                cout << "\nBooks in " << cat.name << " category:\n";
                 for (int j = 0; j < cat.books.size(); j++) {
                     cout << j + 1 << ". " << cat.books[j]->getTitle() << " ("
-                        << (cat.books[j]->checkBorrowed() ? "已借出" : "可借") << ")" << endl;
+                        << (cat.books[j]->checkBorrowed() ? "Borrowed" : "Available") << ")" << endl;
                 }
                 int bookIndex;
-                cout << "選擇書籍編號：";
+                cout << "Select book number: ";
                 cin >> bookIndex; cin.ignore();
                 if (bookIndex < 1 || bookIndex > cat.books.size()) continue;
 
                 Book* selected = cat.books[bookIndex - 1];
-                cout << "\n書名：" << selected->getTitle() << endl;
-                cout << "作者：" << selected->getAuthor() << endl;
-                cout << "簡介：" << selected->getDescription() << endl;
+                cout << "\nTitle: " << selected->getTitle() << endl;
+                cout << "Author: " << selected->getAuthor() << endl;
+                cout << "Description: " << selected->getDescription() << endl;
 
-                cout << "\n1. 借閱\n2. 返回上頁\n3. 返回類別選單\n選擇：";
+                cout << "\n1. Borrow\n2. Go Back\n3. Return to Category Menu\nChoice: ";
                 int act;
                 cin >> act; cin.ignore();
                 if (act == 1) {
                     if (user->borrowOneBook(selected)) {
-                        cout << "成功借閱！" << endl;
+                        cout << "Book borrowed successfully!\n";
                     }
                     else {
-                        cout << "借閱失敗！\n";
+                        cout << "Borrowing failed.\n";
                         goto main_menu;
                     }
                     break;
@@ -131,7 +131,7 @@ main_menu:
         else if (choice == '2') {
             user->displayBorrowedBooks();
             int idx;
-            cout << "輸入要還書的編號：";
+            cout << "Enter the number of the book to return: ";
             cin >> idx;
             user->returnOneBook(idx - 1);
         }
@@ -142,7 +142,7 @@ main_menu:
             break;
         }
         else {
-            cout << "無效選擇！\n";
+            cout << "Invalid selection!\n";
         }
     } while (choice != '4');
 
