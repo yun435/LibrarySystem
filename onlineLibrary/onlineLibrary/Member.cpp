@@ -41,7 +41,7 @@ void Member::returnOneBook(int index) {
 }
 
 void Member::displayBorrowedBooks() {
-    cout << name << " 的借閱清單：" << endl;
+    cout << name << "'s borrowed books:\n";
     int maxBooks = isVIP ? 5 : 3;
     bool hasBooks = false;
     for (int i = 0; i < maxBooks; i++) {
@@ -51,5 +51,5 @@ void Member::displayBorrowedBooks() {
             hasBooks = true;
         }
     }
-    if (!hasBooks) cout << "(無借閱書籍)" << endl;
+    if (!hasBooks) cout << "(No borrowed books)\n";
 }
