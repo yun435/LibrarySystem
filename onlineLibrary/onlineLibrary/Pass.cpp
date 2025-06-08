@@ -8,35 +8,34 @@ PassManager::PassManager() {
 
 bool PassManager::changePassword() {
     string newPass, confirmPass;
-    cout << "請修改初始密碼（預設為 000000）：\n";
-    cout << "修改密碼：";
+    cout << "Please change the default password (default is 000000):\n";
+    cout << "Enter new password: ";
     getline(cin, newPass);
-    cout << "再次確認新密碼：";
+    cout << "Confirm new password: ";
     getline(cin, confirmPass);
 
     while (newPass != confirmPass) {
-        cout << "兩次密碼不一致，請重新輸入。\n";
-        cout << "修改密碼：";
+        cout << "Passwords do not match, please try again.\n";
+        cout << "Enter new password: ";
         getline(cin, newPass);
-        cout << "再次確認新密碼：";
+        cout << "Confirm new password: ";
         getline(cin, confirmPass);
     }
 
     password = newPass;
-    cout << "密碼修改成功，程式已記住您的新密碼。\n\n";
+    cout << "Password changed successfully. The program has remembered your new password.\n\n";
     return true;
 }
 
 bool PassManager::verifyPassword() {
     string inputPass;
     do {
-        cout << "請輸入密碼：";
+        cout << "Please enter your password: ";
         getline(cin, inputPass);
         if (inputPass != password) {
-            cout << "密碼錯誤，請重新輸入。\n";
+            cout << "Incorrect password. Please try again.\n";
         }
     } while (inputPass != password);
 
     return true;
 }
-//多選題解題加解釋
