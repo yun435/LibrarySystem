@@ -1,72 +1,71 @@
-#pragma once
-[¤å¾Ç]
-¤T°êºt¸q, Ã¹³e¤¤, ¤¤°ê¥j¨å¦WµÛ¡A´y¼gÃQ¸¾§d¤T°ê¿³°Iªº¾ú¥v¤p»¡¡C
-¬õ¼Ó¹Ú, ±ä³·ªà, ¤@³¡¤Ï¬M«Ê«ØªÀ·|¶Q±Ú®a®x¿³°Iªº¤å¾Ç¸g¨å¡C
-²ü°¨¥v¸Ö, ²ü°¨, ¥j§ÆÃ¾®É´Á¹Ï´ºªº¦A²{¡C
-¸t¸g, §@ªÌ¤£¸Ô, ¨È§B©Ô¨u½Ñ±Ðªº©v±Ð¸g¨å¡C
-¤Ñ¤è©]ÃÓ, ªQ¤ì¥\, ¥j¥Nªü©Ô§B¥Á¶¡¬G¨Æ¶°¡C
-Ã¹±K¼Ú»P¯üÄR¸­, ¨F¤h¤ñ¨È, ºtÃ¶´d¼@·R±¡ªº¸Öºq¡C
-ÅÜ§Î°O, ¥d¤Ò¥d, Ãö©ó¤H©Ê»P©t¿Wªº¶H¼x¥D¸q¤p»¡¡C
-¤p¤ý¤l, ¸t­×§B¨½, ´J·N²`»·ªºµ£¸Ü­õ¾Ç¬G¨Æ¡C
-¦Ñ¤H»P®ü, ®ü©ú«Â, ´y­z¤@¦ì¦Ñº®¤Ò»P¤j³½·i°«ªº°í¼Ý¬G¨Æ¡C
-¸o»P»@, ªû«ä§´­C¤Ò´µ°ò, ±´¯Á¸o´c»P±ÏÅ«ªº¸g¨å¤å¾Ç§@«~¡C
+[Literature]
+Romance of the Three Kingdoms, Luo Guanzhong, A classic Chinese historical novel depicting the rise and fall of the Wei, Shu, and Wu kingdoms.
+Dream of the Red Chamber, Cao Xueqin, A literary classic reflecting the rise and decline of an aristocratic family in feudal society.
+The Iliad and The Odyssey, Homer, A vivid depiction of ancient Greek life and mythology.
+The Bible, Unknown Author, The sacred scripture of Abrahamic religions.
+One Thousand and One Nights, Songmu Gong, A collection of ancient Arabian folk tales.
+Romeo and Juliet, Shakespeare, A poetic tragedy about love and fate.
+The Metamorphosis, Kafka, A symbolic novel about human nature and loneliness.
+The Little Prince, Antoine de Saint-ExupÃ©ry, A philosophical fairy tale with profound meaning.
+The Old Man and the Sea, Ernest Hemingway, A story of perseverance about a fisherman battling a giant marlin.
+Crime and Punishment, Dostoevsky, A classic exploring crime, guilt, and redemption.
 
-[¬ì§Þ]
-C++¤Jªù, ¤ý¤p©ú, ªì¾ÇªÌ¾Ç²ßC++µ{¦¡³]­pªº¤Jªù®Ñ¡C
-ºtºâªk, ³¯«Ø¨}, ¤¶²Ð±`¨£ºtºâªk­ì²z»P¹ê§@¡C
-¤H¤u´¼¼z¾É½×, §õ¶}´_, ¤H¤u´¼¼z°òÂ¦»PÀ³¥Î¤¶²Ð¡C
-¸ê®Æµ²ºc¹ê¾Ô, ªL©y§g, ¹Ï¸Ñ»P½d¨Ò¨Ã¦æªº¸ê®Æµ²ºc±Ð§÷¡C
-¾÷¾¹¾Ç²ß·§½×, §d®¦¹F, ²`¤J²L¥Xªº¾÷¾¹¾Ç²ß¤Jªù®Ñ¡C
-Python¤Jªù, ³¯«H§», ¾A¦Xªì¾ÇªÌªº Python ±Ð§÷¡C
-Linux¨t²ÎºÞ²z, ©P§B³q, ±Ð§A¦p¦ó¾Þ§@»PºÞ²z Linux¡C
-ºô­¶³]­p, ±i¶®´@, HTML / CSS / JS ªº°òÂ¦±Ð¾Ç¡C
-§@·~¨t²Î·§½×, ¶À¥@©÷, »¡©ú OS ¹B§@­ì²z»P¹ê§@¤è¦¡¡C
-µ{¦¡³]­pÅÞ¿è, ¤ý«T³Í, ´£¤É°ÝÃD¸Ñ¨MªºÅÞ¿è«äºû¯à¤O¡C
+[Technology]
+C++ Basics, Wang Xiaoming, An introductory book for learning C++ programming.
+Algorithms, Chen Jianliang, An explanation of common algorithm principles and implementation.
+Introduction to Artificial Intelligence, Lee Kai-Fu, Basics and applications of AI.
+Data Structures in Practice, Lin Yijun, Illustrated and example-driven material for learning data structures.
+Machine Learning Basics, Andrew Ng, A beginner-friendly guide to machine learning.
+Python Basics, Chen Xinhong, A Python textbook for beginners.
+Linux System Administration, Zhou Botong, A guide on operating and managing Linux systems.
+Web Design, Zhang Yating, Basic tutorials on HTML / CSS / JavaScript.
+Operating Systems Introduction, Huang Shichang, Explanation and implementation of OS principles.
+Programming Logic, Wang Junkai, Enhance logical thinking and problem-solving skills.
 
-[¾ú¥v]
-¥v°O, ¥q°¨¾E, °O¿ý¤W¥j¦Üº~ªZ«Òªì¦~ªº¾ú¥v¥¨µÛ¡C
-¸êªv³qÅ², ¥q°¨¥ú, ¤¤°ê½s¦~Åé³q¥v¥Nªí§@¡C
-¤j¯³«Ò°ê, ®]µq·u, ¥H¤p»¡§Î¦¡´yÃ¸¯³´Â¿³°_¹Lµ{¡C
-¥@¬ÉÂ²¥v, H.G.«Âº¸´µ, ¥þ²y¾ú¥vªº¤jµø³¥®Þ²z¡C
-¤é¥»¥v, ¥Û¥Ð¶i, ±q­ì©l®É¥N¨ì²{¥Nªº¤é¥»¾ú¥v¡C
-¤G¾Ô¯µ»D, ±i°ê©¾, ´¦¯µ¤G¾Ô¤¤ªº­«­n¨Æ¥ó»P¤Hª«¡C
-¤¤°êªñ¥N¥v, ½±§Êï°, ¸ÑªR¤¤°ê¥Ñ«Ò¨îÂà¦V²{¥N°ê®aªº¶iµ{¡C
-¬ü°ê¿W¥ß¾Ôª§, ´öº¿¤h¼ï®¦, ¿W¥ß«Å¨¥»P¥Á¥D½Ï¥Íªº¾ú¥v¡C
-¼Ú¬w¤¤¥@¬ö, ·R¼wµØ¦N¥», ¤¤¥j¼Ú¬w¤å¤Æ»P¬Fªv·§ªp¡C
-¥xÆW¥v¸Ü, ³s¾î, ±´°Q¥xÆW±q²üªv®É¥N¦Ü¤éªv®É¥Nªº¾ú¥v¡C
+[History]
+Records of the Grand Historian, Sima Qian, A monumental history covering ancient times to Emperor Wu of Han.
+Comprehensive Mirror in Aid of Governance, Sima Guang, A representative Chinese chronological history.
+Empire of Qin, Sun Haohui, A novelized depiction of the rise of the Qin Dynasty.
+A Short History of the World, H.G. Wells, A sweeping view of global history.
+Japanese History, Ishida Shin, From primitive times to modern Japan.
+Secrets of WWII, Zhang Guozhong, Important events and figures of WWII revealed.
+Modern Chinese History, Jiang Tingfu, Analysis of China's transition from empire to modern nation.
+American Revolutionary War, Thomas Paine, The history of the Declaration of Independence and democracy.
+Medieval Europe, Edward Gibbon, Culture and politics of medieval Europe.
+A Brief History of Taiwan, Lian Heng, From Dutch colonization to Japanese rule.
 
-[­õ¾Ç]
-²z·Q°ê, ¬f©Ô¹Ï, ±´°Q¥¿¸q»P°ê®a¥»½èªº¸g¨å¹ï¸Ü¿ý¡C
-¥§ªö¿ï¶°, ¥§ªö, ¥Í©R·N§Ó»P¶W¤H­õ¾ÇªºÅé²{¡C
-¨I«ä¿ý, ¶ø°Ç¯d, ´µ¦h¸¯¬£¬Ó«Òªº¤º¦b¤Ï«ä¡C
-¯Âºé²z©Ê§å§P, ±d¼w, ²{¥N­õ¾Çªº°ò¥Û¤§§@¡C
-¹D¼w¸g, ¦Ñ¤l, ¹D®a­õ¾Ç®Ö¤ß¤åÄm¡C
-§Î¤W¾Ç, ¨È¨½´µ¦h¼w, Ãö©ó¦s¦bªº¥»½è»PÅÞ¿è±À²z¡C
-¦s¦b»P®É¶¡, ®ü¼w®æ, 20¥@¬ö¦s¦b¥D¸q¥Nªí§@¡C
-½×»y, ¤Õ¤l, ¾§®a¾Ç»¡°ò¥»¸g¨å¡C
-¤HÃþ²z¸Ñ½×, ¬¥§J, ±´°Q»{ÃÑ»P¤ßÆF¥»½è¡C
-ªÀ·|«´¬ù½×, ¿c±ô, ¬F©²»P¤H¥Á¶¡«´¬ùªº­õ¾Ç±´°Q¡C
+[Philosophy]
+The Republic, Plato, A classic dialogue on justice and the nature of the state.
+Selected Works of Nietzsche, Nietzsche, Reflections on the will to power and Ãœbermensch philosophy.
+Meditations, Marcus Aurelius, Stoic reflections by a Roman emperor.
+Critique of Pure Reason, Immanuel Kant, A foundational work of modern philosophy.
+Tao Te Ching, Laozi, Core text of Taoist philosophy.
+Metaphysics, Aristotle, Exploration of existence and logical reasoning.
+Being and Time, Martin Heidegger, A key existentialist work of the 20th century.
+The Analects, Confucius, A fundamental classic of Confucian thought.
+Essay Concerning Human Understanding, John Locke, On the nature of knowledge and the mind.
+The Social Contract, Jean-Jacques Rousseau, Philosophical discussion of government and civil rights.
 
-[ÃÀ³N]
-ÃÀ³Nªº¬G¨Æ, Ãe¶Oº¸, ¤@¥»ÅýÃÀ³NÅÜ±o¿Ëªñªº¸g¨å¡C
-ÃÀ³N·§½×, ¦¿º~, ÃÀ³N°ò¥»·§©À»P§Î¦¡¤¶²Ð¡C
-²{¥N³]­p¥v, ¤ý¤O§», ³]­p¼é¬y»P¬y¬£ªº¾ú¥vºtÅÜ¡C
-¦è¬v¬ü³N¥v, Ã¹Äõ, ±q¥j¨å¨ì²{¥Nªº¦è¤èÃÀ³Nµo®i¡C
-®ÑªkÃÀ³N, ¤ý¿ª¤§, ®Ñªkªº§Þ¥©»P¼f¬ü¡C
-«Ø¿v¬ü¾Ç, ¦wÃÃ©¾¶¯, ªÅ¶¡»P§Î¦¡ªº·¥Â²¤§¬ü¡C
-¤¤°êÃ¸µe¥v, ±i¤j¤d, ±q§º¤¸©ú²M¨ì²{¥NªºÃ¸µeµo®i¡C
-Äá¼vºc¹Ï¾Ç, »¯¥ÉªL, ´x´¤ºc¹Ï§Þ¥©´£¤ÉÄá¼v§@«~¡C
-ÀJ¶ìÃÀ³N, ¦Ì¶}®Ô°òÃ¹, ÀJ¶ì¥¨¦Kªº§Þªk»P§@«~¤ÀªR¡C
-­µ¼ÖªY½à, ¨©¦hªâ, ±q¥j¨å¨ì²{¥Nªº­µ¼Ö§@«~¾ÉÄý¡C
+[Art]
+The Story of Art, E.H. Gombrich, A classic that makes art accessible and engaging.
+Introduction to Art, Jiang Han, An overview of basic art concepts and forms.
+History of Modern Design, Wang Lihong, The evolution of design styles and movements.
+History of Western Art, Roland, From classical to modern western art.
+Calligraphy Art, Wang Xizhi, Techniques and aesthetics of Chinese calligraphy.
+Architectural Aesthetics, Tadao Ando, Minimalist beauty in space and form.
+History of Chinese Painting, Zhang Daqian, Development of painting from Song, Yuan, Ming, Qing to modern times.
+Photography Composition, Zhao Yulin, Techniques to improve photo composition.
+Sculpture Art, Michelangelo, Analysis of the techniques and works of a master sculptor.
+Music Appreciation, Beethoven, A guide through classical to modern music.
 
-[°Ó·~]
-±q0¨ì1, ©¼±o´£º¸, ³Ð·s»P³Ð·~ªº¶Àª÷«äºû¡C
-´Iª¨ª¨½aª¨ª¨, Ã¹«k¯S²M±T, ²z°]»P§ë¸ê±Ò»X¤§§@¡C
-¸gÀÙ¾Ç­ì²z, °Ò©ø, ³Ì³q«Uªº¸gÀÙ¾Ç¤Jªù±Ð§÷¡C
-¦æ¾PºÞ²z, µá§Q®ú¬ì¯S°Ç, ¥«³õ¦æ¾P²z½×»Pµ¦²¤À³¥Î¡C
-°]°È¦Û¥Ñ¤§¸ô, ³Õ¦hªÙ¶Oº¸, ´x´¤°]°ÈºÞ²zªº¹ê¥Î§Þ¥©¡C
-³Ð·~ºûÁ}, ¥»ÀNÃ¹ºû¯÷, ³Ð·~ªÌ¥²Åªªº¯u¹ê¸g¾ú»P«ØÄ³¡C
-°Ó·~¼Ò¦¡·s¥Í¥N, ¨È¾ú¤s¤j, ³Ð·s°Ó·~¼Ò¦¡ªº¥iµø¤Æ¤u¨ã®Ñ¡C
-½Í§PªºÃÀ³N, §J¨½´µ¨U´µ, «eFBI½Í§P±M®aªº¹ê¾Ô§Þ¥©¡C
-®É¶¡ºÞ²z³N, ³Í¤å§J¾|´µ, ´£¤É®Ä²v»P¥Í¬¡«~½èªºÃöÁä¤èªk¡C
-«~µP¥´³y¾Ô²¤, °¨¤BªL´µ§§, «Ø¥ß«ù¤[«~µP¤Oªºµ¦²¤»P®×¨Ò¡C
+[Business]
+Zero to One, Peter Thiel, Insights on innovation and startup thinking.
+Rich Dad Poor Dad, Robert Kiyosaki, A beginnerâ€™s guide to finance and investment.
+Principles of Economics, Gregory Mankiw, The most accessible introduction to economics.
+Marketing Management, Philip Kotler, Theories and strategies in marketing.
+The Road to Financial Freedom, Bodo SchÃ¤fer, Practical tips on managing personal finances.
+The Hard Thing About Hard Things, Ben Horowitz, Candid advice from a startup veteran.
+Business Model Generation, Alexander Osterwalder, A visual toolkit for innovative business models.
+The Art of Negotiation, Chris Voss, Tactical insights from a former FBI negotiator.
+Time Management, Kevin Kruse, Key methods for productivity and life quality.
+Brand Building Strategy, Martin Lindstrom, Strategies and cases on creating strong brands.
